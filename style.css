@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/849/553/non_2x/modern-gold-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: cursive;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 1%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.cell{
+    background-color: rgba(0, 0, 0, 0.445);
+    border: 3px solid aliceblue;
+    align-items: center;
+    font-size: 100px;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 0%;
+    color: white;
+    text-align: center;
+}
+
+img{
+    margin-top: -3%;
+}
+
+h1{
+    font-size: 10em;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 1.5% 5% 1.5% 5%;
+    margin-top: 4%;
+    border-radius: 30% 30% 10% 10%;
+    border: 2px white solid;
+    text-align: center;
+}
+
+table{
+    height: 200px;
+    width: 500px;
+}
+
+button{
+    display: flex;
+    
+}
